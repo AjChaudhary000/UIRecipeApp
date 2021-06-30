@@ -47,7 +47,7 @@ class TableDetailsVC: UIViewController {
     }
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        myimg.frame = CGRect(x: 20, y: 50, width: view.width-40, height: 300)
+        myimg.frame = CGRect(x: 20, y: 70, width: view.width-40, height: 300)
          lbl.frame = CGRect(x: 20, y: myimg.bottom + 50, width: view.width-40, height: 40)
         
         
